@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        Triangulo x,y;
+        Triangulo x, y;
 
         //Instanciando o objeto x
 
@@ -36,14 +36,9 @@ public class Main {
         //Condição para saber qual triangulo é o maior 
         if (areaX > areaY) {
             System.out.println("O triangulo maior é o : X ");
-        }
-        else {
+        } else {
             System.out.println("O triangulo maior é o : Y ");
         }
-
-
-
-
 
 
     }

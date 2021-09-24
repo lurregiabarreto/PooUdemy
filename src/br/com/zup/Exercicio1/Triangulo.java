@@ -10,8 +10,8 @@ public class Triangulo {
 
     //Criando o Método
 
-    public double area (){
-        double p = ( a + b + c ) / 2.0 ;
+    public double area() {
+        double p = (a + b + c) / 2.0;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c)); // Math.sqrt é raiz quadrada da função
 
     }
