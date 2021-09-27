@@ -11,6 +11,17 @@ public class Main {
         Scanner leitor = new Scanner(System.in);
 
         int n = leitor.nextInt();
+        double[] vetor = new double[n];
 
+        for (int i = 0; i < n; i++) {
+            vetor[i] = leitor.nextDouble();
+
+
+        }
+        double soma = 0.0;
+        for (int i = 0 ; i < n ; i++)
+        soma += vetor [i];
+        double media = soma / n;
+        System.out.println("A média das alturas é : " +media);
     }
 }
