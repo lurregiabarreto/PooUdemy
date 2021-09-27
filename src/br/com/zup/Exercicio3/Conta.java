@@ -35,23 +35,23 @@ public class Conta {
         return saldo;
     }
 
-    public void depositar (double quantia){
+    public void depositar(double quantia) {
         saldo += quantia;
     }
-    public void sacar ( double quantia) {
+
+    public void sacar(double quantia) {
         saldo -= quantia + 5.0;
     }
 
-    public String toString (){
+    public String toString() {
         return " Conta "
                 + numero
                 + ", titular "
                 + titular
                 + ", saldo "
-                + String.format("%.2f" , saldo);
+                + String.format("%.2f", saldo);
 
     }
-
 
 
 }
